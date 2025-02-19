@@ -10,9 +10,6 @@ def news(Content,Api_key):
         result = "Error"
     return result
 
-
-import requests
-
 def Country(Country,Api_key):
     try:
         url = f"https://api.worldnewsapi.com/top-news?source-country={Country}&language=en&date=2024-05-29"
